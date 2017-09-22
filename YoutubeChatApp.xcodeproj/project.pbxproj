@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CC8BE4F046129AE3F10F487 /* Pods_YoutubeChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C2E04D8C6C757AFD8EB69 /* Pods_YoutubeChatApp.framework */; };
+		AC16244B1F75546500B23A41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC16244A1F75546500B23A41 /* GoogleService-Info.plist */; };
+		AC16244D1F7556D800B23A41 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16244C1F7556D800B23A41 /* Helper.swift */; };
 		AC56B52E1F7551A600327F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56B52D1F7551A600327F0F /* AppDelegate.swift */; };
 		AC56B5301F7551A600327F0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56B52F1F7551A600327F0F /* ViewController.swift */; };
 		AC56B5331F7551A600327F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC56B5311F7551A600327F0F /* Main.storyboard */; };
@@ -26,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		377C2E04D8C6C757AFD8EB69 /* Pods_YoutubeChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoutubeChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0996ED1FD62DE56EE65DBF /* Pods-YoutubeChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeChatApp/Pods-YoutubeChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AC16244A1F75546500B23A41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC16244C1F7556D800B23A41 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		AC56B52A1F7551A600327F0F /* YoutubeChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC56B52D1F7551A600327F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC56B52F1F7551A600327F0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		AC56B53E1F7551A600327F0F /* YoutubeChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoutubeChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC56B5421F7551A600327F0F /* YoutubeChatAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeChatAppTests.swift; sourceTree = "<group>"; };
 		AC56B5441F7551A600327F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51C924568CE77E39366B558 /* Pods-YoutubeChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeChatApp/Pods-YoutubeChatApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC8BE4F046129AE3F10F487 /* Pods_YoutubeChatApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +65,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2711F231E1F2D4F105452710 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E0996ED1FD62DE56EE65DBF /* Pods-YoutubeChatApp.debug.xcconfig */,
+				B51C924568CE77E39366B558 /* Pods-YoutubeChatApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27275705332D73EA5F5CCDBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				377C2E04D8C6C757AFD8EB69 /* Pods_YoutubeChatApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC56B5211F7551A600327F0F = {
 			isa = PBXGroup;
 			children = (
 				AC56B52C1F7551A600327F0F /* YoutubeChatApp */,
 				AC56B5411F7551A600327F0F /* YoutubeChatAppTests */,
 				AC56B52B1F7551A600327F0F /* Products */,
+				2711F231E1F2D4F105452710 /* Pods */,
+				27275705332D73EA5F5CCDBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +105,11 @@
 		AC56B52C1F7551A600327F0F /* YoutubeChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				AC16244A1F75546500B23A41 /* GoogleService-Info.plist */,
 				AC56B52D1F7551A600327F0F /* AppDelegate.swift */,
 				AC56B52F1F7551A600327F0F /* ViewController.swift */,
 				AC56B5311F7551A600327F0F /* Main.storyboard */,
+				AC16244C1F7556D800B23A41 /* Helper.swift */,
 				AC56B5341F7551A600327F0F /* Assets.xcassets */,
 				AC56B5361F7551A600327F0F /* LaunchScreen.storyboard */,
 				AC56B5391F7551A600327F0F /* Info.plist */,
@@ -103,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC56B5471F7551A700327F0F /* Build configuration list for PBXNativeTarget "YoutubeChatApp" */;
 			buildPhases = (
+				56DD79FECC0291B4696CC355 /* [CP] Check Pods Manifest.lock */,
 				AC56B5261F7551A600327F0F /* Sources */,
 				AC56B5271F7551A600327F0F /* Frameworks */,
 				AC56B5281F7551A600327F0F /* Resources */,
+				4B737EB91403AF4962498E4B /* [CP] Embed Pods Frameworks */,
+				E4D58D10E9B564B9B77BDE04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC56B5381F7551A600327F0F /* LaunchScreen.storyboard in Resources */,
+				AC16244B1F75546500B23A41 /* GoogleService-Info.plist in Resources */,
 				AC56B5351F7551A600327F0F /* Assets.xcassets in Resources */,
 				AC56B5331F7551A600327F0F /* Main.storyboard in Resources */,
 			);
@@ -196,6 +230,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B737EB91403AF4962498E4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YoutubeChatApp/Pods-YoutubeChatApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoutubeChatApp/Pods-YoutubeChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56DD79FECC0291B4696CC355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoutubeChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4D58D10E9B564B9B77BDE04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoutubeChatApp/Pods-YoutubeChatApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC56B5261F7551A600327F0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -203,6 +301,7 @@
 			files = (
 				AC56B5301F7551A600327F0F /* ViewController.swift in Sources */,
 				AC56B52E1F7551A600327F0F /* AppDelegate.swift in Sources */,
+				AC16244D1F7556D800B23A41 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,12 +438,13 @@
 		};
 		AC56B5481F7551A700327F0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E0996ED1FD62DE56EE65DBF /* Pods-YoutubeChatApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WN4SE6GN5L;
 				INFOPLIST_FILE = YoutubeChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-theswiftproject.YoutubeChatApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-theswiftproject.YoutubeChatApp-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -352,12 +452,13 @@
 		};
 		AC56B5491F7551A700327F0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51C924568CE77E39366B558 /* Pods-YoutubeChatApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WN4SE6GN5L;
 				INFOPLIST_FILE = YoutubeChatApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-theswiftproject.YoutubeChatApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-theswiftproject.YoutubeChatApp-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -412,6 +513,7 @@
 				AC56B5491F7551A700327F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC56B54A1F7551A700327F0F /* Build configuration list for PBXNativeTarget "YoutubeChatAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +522,7 @@
 				AC56B54C1F7551A700327F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
