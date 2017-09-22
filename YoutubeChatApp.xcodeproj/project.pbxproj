@@ -10,6 +10,7 @@
 		9CC8BE4F046129AE3F10F487 /* Pods_YoutubeChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C2E04D8C6C757AFD8EB69 /* Pods_YoutubeChatApp.framework */; };
 		AC16244B1F75546500B23A41 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC16244A1F75546500B23A41 /* GoogleService-Info.plist */; };
 		AC16244D1F7556D800B23A41 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC16244C1F7556D800B23A41 /* Helper.swift */; };
+		AC1624511F7557EE00B23A41 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC1624501F7557EE00B23A41 /* .gitignore */; };
 		AC56B52E1F7551A600327F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56B52D1F7551A600327F0F /* AppDelegate.swift */; };
 		AC56B5301F7551A600327F0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56B52F1F7551A600327F0F /* ViewController.swift */; };
 		AC56B5331F7551A600327F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC56B5311F7551A600327F0F /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		5E0996ED1FD62DE56EE65DBF /* Pods-YoutubeChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeChatApp/Pods-YoutubeChatApp.debug.xcconfig"; sourceTree = "<group>"; };
 		AC16244A1F75546500B23A41 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AC16244C1F7556D800B23A41 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AC1624501F7557EE00B23A41 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AC56B52A1F7551A600327F0F /* YoutubeChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC56B52D1F7551A600327F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC56B52F1F7551A600327F0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		AC56B5211F7551A600327F0F = {
 			isa = PBXGroup;
 			children = (
+				AC1624501F7557EE00B23A41 /* .gitignore */,
 				AC56B52C1F7551A600327F0F /* YoutubeChatApp */,
 				AC56B5411F7551A600327F0F /* YoutubeChatAppTests */,
 				AC56B52B1F7551A600327F0F /* Products */,
@@ -214,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1624511F7557EE00B23A41 /* .gitignore in Resources */,
 				AC56B5381F7551A600327F0F /* LaunchScreen.storyboard in Resources */,
 				AC16244B1F75546500B23A41 /* GoogleService-Info.plist in Resources */,
 				AC56B5351F7551A600327F0F /* Assets.xcassets in Resources */,
